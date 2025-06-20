@@ -5,7 +5,7 @@ export default async function decorate(block) {
     console.log('Block wrapper:', blockWrapper);
     const emailLink = document.createElement('a');
     emailLink.href = `mailto:${blockWrapper.textContent.trim()}`;
-    emailLink.textContent = blockWrapper.textContent.trim();
+    emailLink.innerText = blockWrapper.textContent.trim();
     emailLink.className = 'contact-email';
-    block.replaceChildren(emailLink);
+    blockWrapper.replaceChildren(emailLink);
 }
