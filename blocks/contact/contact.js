@@ -7,5 +7,5 @@ export default async function decorate(block) {
     emailLink.href = `mailto:${blockWrapper.textContent.trim()}`;
     emailLink.textContent = blockWrapper.textContent.trim();
     emailLink.className = 'contact-email';
-    blockWrapper.replaceChildren(emailLink);
+    block.replaceChildren(emailLink);
 }
