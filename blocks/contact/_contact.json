@@ -30,12 +30,12 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "name",
-          "label": "Name",
+          "name": "author",
+          "label": "Author",
           "value": ""
         },
         {
-          "component": "richtext",
+          "component": "text",
           "name": "email",
           "value": "",
           "label": "Email",
