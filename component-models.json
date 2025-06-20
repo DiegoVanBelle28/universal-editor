@@ -233,7 +233,7 @@
           "value": ""
         },
         {
-          "component": "richtext",
+          "component": "text",
           "name": "email",
           "value": "",
           "label": "Email",

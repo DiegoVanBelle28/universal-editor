@@ -30,12 +30,12 @@
         {
           "component": "text",
           "valueType": "string",
-          "name": "imageAlt",
+          "name": "name",
           "label": "Alt",
           "value": ""
         },
         {
-          "component": "richtext",
+          "component": "text",
           "name": "text",
           "value": "",
           "label": "Text",
