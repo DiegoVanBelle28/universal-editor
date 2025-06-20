@@ -1,5 +1,5 @@
-import htm from './../../node_modules/htm';
-import { h, render } from '../../node_modules/preact';
+import htm from 'htm';
+import { h, render } from 'preact';
 
 const person = {
     name: '',
